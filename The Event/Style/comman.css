@@ -1,0 +1,807 @@
+@import url(../Style/fontawesome-free-6.2.1-web/css/all.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Agency FB', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+#header {
+    background: rgb(111, 111, 111) url(../image/banner.jpg)center center;
+    background-size: cover;
+    height: 700px;
+    background-blend-mode: multiply;
+}
+
+#header h1 {
+    float: left;
+    color: white;
+    margin: -15px 0px 10px -0px;
+    padding: 18px 0;
+}
+
+#header i {
+    margin-left: 75%;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+.wrapper span {
+    color: #ee294c;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover:not(nav li:last-child a) {
+    border-bottom: 5px solid #ee294c;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav li:last-child a {
+    color: #ffffff;
+    padding: 12px 25px;
+    background-color: #ee294c;
+}
+
+#caption {
+    text-align: center;
+    color: white;
+}
+
+#caption h6 {
+    font-size: 2rem;
+}
+
+#caption span {
+    color: #ee294c;
+    text-transform: uppercase;
+}
+
+#cation p {
+    margin: 60px 0;
+    font-size: 1.75rem;
+}
+
+#caption a {
+    display: inline-block;
+    color: white;
+    padding: 12px 22px;
+    border: 3px solid #ee294c;
+    border-radius: 30px;
+}
+
+#caption a:hover {
+    background-color: #ee294dfa;
+    transition: 0.7s;
+}
+
+#speakers hr,
+#schedule hr,
+#venu hr,
+#newsletter hr,
+#tickets hr,
+#contact hr {
+    background-color: #ee294c;
+    height: 5px;
+    width: 200px;
+    margin: 35px auto;
+}
+#speakers {
+    padding: 3% 0;
+}
+#schedule {
+    padding: 1% 0;
+}
+#venu{
+    padding: 3% 0;
+}
+#tickets{
+    padding: 3% 0;
+}
+#contact{
+    padding: 3% 0;
+}
+
+.list {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 10px 50px;
+    border: solid 5px #ee294c;
+    border-radius: 30px;
+}
+
+
+.list a {
+    color: #201e1e;
+}
+
+.list {
+    margin: 2% 6%;
+}
+
+#speakers div>div>div {
+    width: 340px;
+    float: left;
+}
+
+#schedule .program {
+    border-bottom: solid 1px #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.program span {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.program img {
+    float: left;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.info {
+    float: left;
+    text-align: left;
+}
+
+.seemore {
+    display: inline-block;
+    font-size: 1.75rem;
+    padding: 10px 40px;
+    border: solid 5px #ee294c;
+    border-radius: 30px;
+    margin: 4%;
+}
+
+.Event h2 {
+    padding: 20px 0;
+}
+
+.seemore a {
+    color: #000;
+    font-weight: bold;
+}
+
+.seemore:hover {
+    background-color: #ee294c;
+    transition: 0.7s;
+}
+
+#newsletter {
+    background: url(../image/subscribe-Banner.png) center center;
+    background-size: cover;
+    height: 450px;
+    background-blend-mode: multiply;
+}
+
+.news {
+
+    margin: auto;
+    color: #ffffff;
+    margin: 0% 0% 0% 0%;
+}
+
+.subscribe {
+    padding: 25px 30px;
+}
+
+#form input {
+    padding: 11px 70px;
+
+}
+
+#form a {
+
+    padding: 10px 34px;
+    background-color: #ee294c;
+    color: #ffffff;
+}
+
+.price {
+    width: 250px;
+    padding: 30px 22px;
+    margin: 0 15px;
+}
+
+.price hr {
+    width: 250px;
+    height: 2px;
+    background-color: #343333;
+    margin: 20px 17px 20px 0px;
+}
+
+.card div {
+    float: left;
+    margin: 25px 0px 50px 61px;
+}
+
+.card {
+    margin: 35px 0;
+}
+
+.card p {
+    padding: 2% 0;
+}
+
+.price h6 {
+    font-size: 1.90rem;
+}
+
+.price ul li {
+    padding: 10px 0;
+    list-style: disc;
+}
+
+.price a {
+    padding: 12px 30px;
+    border: 1px solid #ee294c;
+    border-radius: 20px;
+}
+
+.price ul {
+    float: left;
+    padding: 0px 0px 23px 57px;
+}
+
+.price:hover {
+    transition: 0.7s;
+    box-shadow: 0 0 13px black;
+}
+
+.price a {
+    color: #000;
+}
+
+.icon hr {
+    height: 5px;
+    width: 100px;
+    background-color: #ee294c;
+    margin: auto;
+}
+
+.icon p {
+    padding: 20px 0;
+
+}
+
+#footer {
+    height: 400px;
+    background-color: #0d111b;
+}
+
+.the h4 {
+    font-size: 2.80rem;
+    color: #ffffff;
+}
+
+.the span {
+    color: #ee294c;
+}
+
+.the p {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.useful h4 {
+    color: #ffffff;
+}
+
+.useful ul {
+    color: #ffffff;
+}
+
+.contact h4 {
+    color: #ffffff;
+}
+
+.contact p {
+    color: #ffffff;
+}
+
+.contact i {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.useful ul li {
+    padding: 10px 0px 0px 0px;
+
+}
+
+.useful i {
+    padding: 0px 20px 0px 0px;
+    color: #ee294c;
+}
+
+.useful h4 {
+    color: #ee294c;
+    padding: 0px 0px 10px 0px;
+}
+
+.contact p {
+    padding: 10px 0px 15px 0px;
+}
+
+.contact h4 {
+    color: #ee294c;
+    padding: 0px 0px 10px 0px;
+}
+
+.contact i:hover {
+    color: #ee294c;
+
+}
+
+
+
+
+/* (mob-screen) */
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .wrapper {
+        width: 350px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav {
+        padding: 30px;
+    }
+
+    #header h1 {
+
+        font-size: .90rem;
+    }
+
+    #header i {
+        font-size: 15px;
+    }
+
+    #caption {
+
+        margin: 72px;
+    }
+
+    #caption a {
+        font-size: 1rem;
+        margin: 50px 0px 0px 0px;
+    }
+
+    #speakers,
+    #schedule,
+    #venu,
+    #newsletter,
+    #tickets,
+    #contact {
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+    }
+
+    #venu div>div>div {
+        width: 345px;
+        float: left;
+
+    }
+
+    .content {
+        padding-top: 30%;
+    }
+
+    .contenticon {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .fonticon i {
+        color: #ee294c;
+        font-size: 2.50rem;
+        padding: 10px 0;
+
+    }
+
+    .fonticon {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .contenticon {
+        padding: 50px 0px 0px -2px;
+    }
+
+
+    #footer {
+        margin: 1% 0 0 0;
+        height: 861px;
+
+    }
+
+    footer div>div {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .useful ul {
+        padding: 15 0px 0px 0px;
+    }
+
+
+    footer {
+        padding: 20px 0px 0px 100px;
+    }
+
+    .contact i {
+        padding: 0px 5px 0px 0px;
+    }
+    .contact ul li {
+        float: left;
+        padding: 0px 10px 0px 0px;
+    }
+    .d-flex {
+        display: flex;
+    }
+}
+
+
+
+/* (tab-screen) */
+
+
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .wrapper {
+        width: 750px;
+    }
+
+    nav {
+        display: none;
+    }
+    nav {
+        padding: 30px;
+    }
+    #header h1 {
+        font-size: 2rem;
+    }
+    #header i {
+        font-size: 30px;
+    }
+    #caption {
+
+        margin: 140px;
+    }
+    #caption a {
+        font-size: 1.50rem;
+        margin: 50px 0px 0px 20px;
+    }
+
+    #speakers,
+    #schedule,
+    #venu,
+    #newsletter,
+    #tickets,
+    #contact {
+        text-align: center;
+    }
+
+    #speakers div>div>div {
+        margin: 15px;
+    }
+
+    .content {
+        padding-top: 16%;
+    }
+
+    .card {
+        overflow: hidden;
+    }
+
+    .card div:last-child {
+        display: none;
+    }
+    .icon div {
+        float: left;
+        margin: auto;
+    }
+
+    .fonticon i {
+        color: #ee294c;
+        font-size: 2.50rem;
+        padding: 10px 0;
+
+    }
+
+    .fonticon {
+        padding: 0px 0px 0px 23px;
+    }
+
+    .contenticon {
+        padding: 50px 0px 0px -2px;
+    }
+
+    #contact {
+        padding: 3% 0;
+    }
+
+    #footer {
+        margin: 11% 0 0 0;
+
+    }
+
+    footer div>div {
+        float: left;
+    }
+
+    .useful ul {
+        padding: 15px;
+    }
+
+
+    footer {
+        padding: 50px 0px 0px 100px;
+    }
+
+    .useful {
+        padding: 0px 30px 0px 27px;
+    }
+
+
+    .contact i {
+        padding: 0px 15px 0px 0px;
+    }
+
+    .contact ul {
+        display: flex;
+    }
+
+
+
+    #vgallery {
+        overflow: hidden;
+    }
+
+    #vgallery div {
+        width: 345px;
+        float: left;
+        margin: 15px;
+    }
+
+    #vgallery div:last-of-type {
+        display: none;
+    }
+}
+
+
+
+/* (desk-screen) */
+
+
+
+@media screen and (min-width:1200px) {
+    .wrapper {
+        width: 1200px;
+    }
+
+
+
+    #header i {
+        display: none;
+    }
+
+    nav {
+        padding: 30px;
+    }
+
+    #header h1 {
+
+        font-size: 2.50rem;
+
+        margin: -7px 0px -1px 6px;
+    }
+
+    nav ul {
+        float: right;
+        margin: -9px -2px 0px 0px;
+    }
+
+    nav ul li {
+        float: left;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+
+    nav li:last-child a {
+
+        border-radius: 20px;
+        margin-left: 5px;
+    }
+
+    #caption {
+
+        margin: 140px;
+    }
+
+    #caption h6 {
+        font-size: 4rem;
+    }
+
+    #caption a {
+        font-size: 1.50rem;
+        margin: 50px 0px 0px 0px;
+    }
+
+    #speakers {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .list {
+        font-size: 1.50rem;
+    }
+
+    #speakers div>div>div {
+        width: 370px;
+        margin: 15px;
+    }
+
+    #schedule {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #venu {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #venu div>div>div {
+        width: 370px;
+        float: left;
+        margin: 15px;
+    }
+
+
+    #newsletter {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .news {
+        width: 1200px;
+
+    }
+
+    .content {
+        padding-top: 8%;
+    }
+
+    #tickets {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #tickets ul {
+        text-align: left;
+    }
+
+    .card div {
+        margin: 25px 0px 50px 85px;
+    }
+
+
+
+
+    #contact {
+        text-align: center;
+        overflow: hidden;
+    }
+
+
+    .icon div {
+        float: left;
+        margin: auto;
+    }
+
+    .fonticon i {
+        color: #ee294c;
+        font-size: 2.50rem;
+        padding: 10px 0;
+
+    }
+
+    .fonticon {
+        padding: 0px 0px 0px 87px;
+    }
+
+    .contenticon {
+        padding: 50px 0px 0px 63px;
+    }
+
+    #contact {
+        padding: 3% 0;
+    }
+
+
+
+    .the h4 {
+
+        margin: -11px 0px 12px 0px;
+    }
+
+    #footer {
+
+        overflow: hidden;
+    }
+
+    footer div>div {
+        float: left;
+    }
+
+    .footer div {
+        margin: auto;
+    }
+
+    .useful ul {
+        padding: 15px;
+    }
+
+
+    footer {
+        padding: 50px 0px 0px 100px;
+    }
+
+    .footerlist {
+        margin: 28px 0px 0px 50px;
+    }
+
+    .useful {
+        padding: 0px 182px 0px 176px;
+    }
+
+
+    .contact i {
+        padding: 0px 15px 0px 0px;
+    }
+
+
+    .contact ul {
+        display: flex;
+    }
+}
